@@ -55,7 +55,7 @@ const AddProduct = () => {
                     <Form.Control name="weight" placeholder="Product Weight" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label className="text-white"><b>Product Quantity:</b></Form.Label>
+                    <Form.Label className="text-white"><b>Product Price:</b></Form.Label>
                     <Form.Control name="price" placeholder="Product price" ref={register} />
                 </Form.Group>
                 <Form.Group>
