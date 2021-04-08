@@ -22,6 +22,7 @@ const LoadProduct = (props) => {
                     <Card.Body className="text-center">
                         <Card.Title className="font-weight-bold">{name}-{weight}gm</Card.Title>
                         <span className="font-weight-bold h4">Price: ${price}</span>
+                        <br></br>
                         {<Button className="btnStyle" variant="primary" onClick={() => handleBuyNow(_id)}>Buy Now <FontAwesomeIcon icon={faShoppingBag} /></Button>}
                     </Card.Body>
                 </Card>
