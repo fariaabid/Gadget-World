@@ -12,7 +12,7 @@ const Admin = () => {
                     <Col md={4} className="bg-dark">
                         <Link to="#addProduct" className="text-white">Add Product Here</Link>
                         <br />
-                        <Link to="#editproduct" className="text-white">Edit Product Here</Link>
+                        <Link to="#editProduct" className="text-white">Edit Product Here</Link>
                         <br/>
                         <Link to="#manageproduct" className="text-white">Manage Product Here</Link>
                     </Col>
