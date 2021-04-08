@@ -31,13 +31,13 @@ const Checkout = () => {
     })
       .then(res => console.log('server side response', res))
       .then((data) => {
-        alert("YAY!...Your Order Is Added To The Cart");
+        alert("YAY!...Your Order Is Added To The Cart.Please,visit order page for more details.");
       });
   }
 
   return (
     <div className="container">
-      <Table striped bordered hover variant="info">
+      <Table striped bordered hover variant="info" className="my-5">
         <thead>
           <tr>
             <th>#</th>

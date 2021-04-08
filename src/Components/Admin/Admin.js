@@ -10,15 +10,14 @@ const Admin = () => {
             <Container>
                 <Row>
                     <Col md={4} className="bg-info">
-                        <Link to="#addProduct" className="text-white">Add Product</Link>
+                        <Link to="/addProduct" className="text-white">Add Product</Link>
                         <br />
-                        <Link to="#editProduct" className="text-white">Edit Product</Link>
+                        <Link to="/editProduct" className="text-white">Edit Product</Link>
                         <br/>
-                        <Link to="#manageproduct" className="text-white">Manage Product</Link>
+                        <Link to="/manageProduct" className="text-white">Manage Product</Link>
                     </Col>
                     <Col md={8} className="bg-success">
                         <AddProduct></AddProduct>
-                        <EditProduct></EditProduct>
                     </Col>
                 </Row>
             </Container>

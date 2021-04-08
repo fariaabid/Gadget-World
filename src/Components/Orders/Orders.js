@@ -24,10 +24,10 @@ const Orders = () => {
                 <Col>
                     <Row>
                         <Col md={6}>
-                            <h3 className="text-center">Order Total:{orders.length}{" "}</h3>
+                            <h3 className="text-center">Total order:{orders.length}{" "}</h3>
                         </Col>
                         <Col md={6}>
-                            <h2 className="text-center">{loggedinUser.displayName},your order summary:</h2>
+                            <h2 className="text-center">{loggedinUser.displayName},your order summary is:</h2>
                         </Col>
                     </Row>
                     <Table striped bordered hover variant="success">

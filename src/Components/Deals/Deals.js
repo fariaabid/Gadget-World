@@ -5,7 +5,7 @@ const Deals = () => {
     return (
         <Row>
             <Col className="text-center">
-                <h2 className="text-info">YAY!....You will get 20% discount on your next purchase</h2>
+                <h2 className="text-info my-5">YAY!....You will get 20% discount on your next purchase</h2>
             </Col>
         </Row>
     );
