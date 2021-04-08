@@ -8,7 +8,7 @@ const Admin = () => {
     return (
         <>
             <Container>
-                <Row>
+                <Row className="my-5">
                     <Col md={4} className="bg-info">
                         <Link to="/addProduct" className="text-white">Add Product</Link>
                         <br />

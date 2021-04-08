@@ -34,9 +34,9 @@ const Orders = () => {
                         <thead>
                             <tr>
                                 <th className="bg-primary">Product Name</th>
-                                <th className="bg-primary">Quantity</th>
-                                <th className="bg-primary">Weight</th>
-                                <th className="bg-primary">Price</th>
+                                <th className="bg-primary text-white">Quantity</th>
+                                <th className="bg-primary text-white">Weight</th>
+                                <th className="bg-primary text-white">Price</th>
                             </tr>
                         </thead>
                     </Table>

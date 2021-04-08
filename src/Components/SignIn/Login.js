@@ -54,7 +54,7 @@ const SignIn = () => {
         event.preventDefault();
     }
     return (
-        <div className="form-signin mt-5">
+        <div className="form-signin my-5">
             <form onSubmit={handleSubmit}>
                 <button onClick={handleGoogleSignIn} className="w-100 btn btn-lg btn-outline-success mb-2" type="submit">Login With Google</button>
             </form>
