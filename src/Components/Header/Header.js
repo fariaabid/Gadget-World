@@ -7,7 +7,7 @@ const Header = () => {
     // console.log(loggedinUser);
     return (
         <>
-            <Navbar bg="warning" expand="lg" className="sticky-top">
+            <Navbar bg="primary" expand="lg" className="sticky-top">
                 <Navbar.Brand as={Link} to="/" className="text-white">Gadget World</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -14,11 +14,12 @@ const Home = () => {
 
   return (
     <Container>
-      <Row className="text-center">
         <Form inline>
           <FormControl type="text" placeholder="Search...." />
           <Button variant="primary">Search</Button>
         </Form>
+      <Row className="text-center">
+        
         {events.length === 0 && <CircularProgress color="primary" />}
         {events.map((event) => (
           <LoadProduct event={event}></LoadProduct>

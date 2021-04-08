@@ -37,7 +37,9 @@ const Checkout = () => {
 
   return (
     <div className="container">
+        
       <Table striped bordered hover variant="info" className="my-5">
+          
         <thead>
           <tr>
             <th>#</th>

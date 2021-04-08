@@ -44,22 +44,22 @@ const AddProduct = () => {
 
     return (
         <Container>
-            <h2 className="text-center">Adding Product Here</h2>
+            <h2 className="text-center text-white">Add Your Product Here</h2>
             <Form onSubmit={handleSubmit(onSubmit)}>
                 <Form.Group>
-                    <Form.Label>Product Name:</Form.Label>
+                    <Form.Label className="text-white"><b>Product Name:</b></Form.Label>
                     <Form.Control name="name" placeholder="Product Name" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Product Weight:</Form.Label>
+                    <Form.Label className="text-white"><b>Product Weight:</b></Form.Label>
                     <Form.Control name="weight" placeholder="Product Weight" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Product Quantity:</Form.Label>
+                    <Form.Label className="text-white"><b>Product Quantity:</b></Form.Label>
                     <Form.Control name="price" placeholder="Product price" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Product Image:</Form.Label>
+                    <Form.Label className="text-white"><b>Product Image:</b></Form.Label>
                     <Form.Control
                         name="exampleRequired" type="file" onChange={handleImageUpload} />
                 </Form.Group>
