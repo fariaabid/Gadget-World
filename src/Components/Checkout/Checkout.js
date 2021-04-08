@@ -30,11 +30,14 @@ const Checkout = () => {
       body: JSON.stringify(orderInfo)
     })
       .then(res => console.log('server side response', res))
+      .then((data) => {
+        alert("YAY!...Your Order Is Added To The Cart");
+      });
   }
 
   return (
     <div className="container">
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered hover variant="info">
         <thead>
           <tr>
             <th>#</th>

@@ -9,12 +9,12 @@ const Admin = () => {
         <>
             <Container>
                 <Row>
-                    <Col md={4} className="bg-dark">
-                        <Link to="#addProduct" className="text-white">Add Product Here</Link>
+                    <Col md={4} className="bg-info">
+                        <Link to="#addProduct" className="text-white">Add Product</Link>
                         <br />
-                        <Link to="#editProduct" className="text-white">Edit Product Here</Link>
+                        <Link to="#editProduct" className="text-white">Edit Product</Link>
                         <br/>
-                        <Link to="#manageproduct" className="text-white">Manage Product Here</Link>
+                        <Link to="#manageproduct" className="text-white">Manage Product</Link>
                     </Col>
                     <Col md={8} className="bg-success">
                         <AddProduct></AddProduct>

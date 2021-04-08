@@ -27,16 +27,16 @@ const Orders = () => {
                             <h3 className="text-center">Order Total:{orders.length}{" "}</h3>
                         </Col>
                         <Col md={6}>
-                            <h2 className="text-center">This Order Made by: {loggedinUser.email}</h2>
+                            <h2 className="text-center">{loggedinUser.displayName},your order summary:</h2>
                         </Col>
                     </Row>
-                    <Table striped bordered hover variant="dark">
+                    <Table striped bordered hover variant="success">
                         <thead>
                             <tr>
                                 <th className="bg-primary">Product Name</th>
-                                <th className="bg-warning">Quantity</th>
-                                <th className="bg-success">Weight</th>
-                                <th className="bg-danger">Price</th>
+                                <th className="bg-primary">Quantity</th>
+                                <th className="bg-primary">Weight</th>
+                                <th className="bg-primary">Price</th>
                             </tr>
                         </thead>
                     </Table>
@@ -44,12 +44,12 @@ const Orders = () => {
                         return (
                             <div>
                                 <div className="container">
-                                    <Table striped bordered hover variant="dark">
+                                    <Table striped bordered hover variant="warning">
                                         <tbody>
                                             <tr>
-                                                <td className="bg-primary">{singleOrder.name}</td>
-                                                <td className="bg-warning">1</td>
-                                                <td className="bg-success">{singleOrder.weight}</td>
+                                                <td >{singleOrder.name}</td>
+                                                <td >1</td>
+                                                <td >{singleOrder.weight}</td>
                                                 <td>${singleOrder.price}</td>
                                             </tr>
                                         </tbody>

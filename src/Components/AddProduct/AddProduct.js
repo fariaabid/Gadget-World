@@ -47,19 +47,19 @@ const AddProduct = () => {
             <h2 className="text-center">Adding Product Here</h2>
             <Form onSubmit={handleSubmit(onSubmit)}>
                 <Form.Group>
-                    <Form.Label>Name of The Product</Form.Label>
+                    <Form.Label>Product Name:</Form.Label>
                     <Form.Control name="name" placeholder="Product Name" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Weight of Product</Form.Label>
+                    <Form.Label>Product Weight:</Form.Label>
                     <Form.Control name="weight" placeholder="Product Weight" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Price of Product</Form.Label>
+                    <Form.Label>Product Quantity:</Form.Label>
                     <Form.Control name="price" placeholder="Product price" ref={register} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Image of Product</Form.Label>
+                    <Form.Label>Product Image:</Form.Label>
                     <Form.Control
                         name="exampleRequired" type="file" onChange={handleImageUpload} />
                 </Form.Group>

@@ -18,7 +18,7 @@ const LoadProduct = (props) => {
         <>
             <Col md={4} className="p-3">
                 <Card className="p-5">
-                    <Card.Img variant="top" className="cardImage" src={imageURL} />
+                    <Card.Img variant="top" className="cardImage" style={{width:"200px",height:"200px"}} src={imageURL} />
                     <Card.Body className="text-center">
                         <Card.Title className="font-weight-bold">{name}-{weight}gm</Card.Title>
                         <span className="font-weight-bold h4">Price: ${price}</span>
