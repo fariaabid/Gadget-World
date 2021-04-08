@@ -22,7 +22,7 @@ const Orders = () => {
         <Container>
             <Row>
                 <Col>
-                    <Row>
+                    <Row className="my-5">
                         <Col md={6}>
                             <h3 className="text-center">Total order:{orders.length}{" "}</h3>
                         </Col>
@@ -30,10 +30,10 @@ const Orders = () => {
                             <h2 className="text-center">{loggedinUser.displayName},your order summary is:</h2>
                         </Col>
                     </Row>
-                    <Table striped bordered hover variant="success">
+                    <Table striped bordered hover variant="success" className="my-5">
                         <thead>
                             <tr>
-                                <th className="bg-primary">Product Name</th>
+                                <th className="bg-primary text-white">Product Name</th>
                                 <th className="bg-primary text-white">Quantity</th>
                                 <th className="bg-primary text-white">Weight</th>
                                 <th className="bg-primary text-white">Price</th>
