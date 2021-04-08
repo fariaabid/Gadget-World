@@ -27,7 +27,7 @@ const Orders = () => {
                             <h3 className="text-center">Order Total:{orders.length}{" "}</h3>
                         </Col>
                         <Col md={6}>
-                            <h2 className="text-center text-danger">This Order Made by: {loggedinUser.email}</h2>
+                            <h2 className="text-center">This Order Made by: {loggedinUser.email}</h2>
                         </Col>
                     </Row>
                     <Table striped bordered hover variant="dark">
